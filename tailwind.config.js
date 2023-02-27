@@ -9,7 +9,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "banner-pattern": "url('/assets/images/banner/1.png')",
+      },
+    },
   },
   plugins: [],
 };

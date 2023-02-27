@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Navbar from "../components/navbar";
 import Herobanner from "../components/banner";
+import Navbar from "../components/navbar";
 export default function Home() {
   return (
     <>
@@ -10,10 +10,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <Navbar />
-        <Herobanner />
-      </main>
+      <div className="h-[2000px]">
+        <nav>
+          <Navbar />
+        </nav>
+        <main>
+          <Herobanner />
+        </main>
+      </div>
     </>
   );
 }

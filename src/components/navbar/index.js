@@ -1,11 +1,14 @@
-import React from "react";
-import NavLeft from "./NavLeft";
+import DesktopNav from "./desktop-nav";
+import MobileNav from "./mobile-nav";
 
 function Navbar() {
   return (
-    <nav>
-      <NavLeft />
-    </nav>
+    <div className="bg-red-100">
+      {/* mobile navbar */}
+      <MobileNav />
+      {/* desktop navbar */}
+      <DesktopNav />
+    </div>
   );
 }
 
