@@ -1,12 +1,12 @@
 import { EnvelopeIcon } from "/node_modules/@heroicons/react/24/outline/index.js";
 function MobileBanner() {
   return (
-    <div className="lg:hidden w-full px-5 sm:px-14 md:px-6 flex justify-center">
-      <div className="w-[570px] md:w-[750px]">
-        <div className="max-w-[570px]">
+    <div className="xl:hidden w-full px-5 sm:px-14 md:px-6 flex justify-center">
+      <div className="w-[570px] md:w-[750px] lg:w-[1153px]">
+        <div className="max-w-[576px] lg:max-w-[608px]">
           {/* Headline */}
           <div className=" whitespace-normal">
-            <h1 className="font-bold text-[52px] md:text-[60px] tracking-wide">
+            <h1 className="font-bold text-[52px] md:text-[60px] lg:text-[75px] tracking-wide">
               Explore, <br />
               <span className="underlined relative text-[#32bead] z-[-1]">
                 Discover,{" "}

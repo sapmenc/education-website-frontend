@@ -21,7 +21,7 @@ function DesktopNav() {
         show ? "bg-white" : "bg-transparent"
       } fixed top-0 ease-in-out  drop-shadow`}
     >
-      <div className="w-full flex items-center max-w-[1143px] justify-between">
+      <div className="w-full flex items-center max-w-[1153px] justify-between">
         {/* desktop-nav-logo-container */}
         <div>
           <Link href="/">

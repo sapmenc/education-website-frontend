@@ -1,7 +1,7 @@
-import TrustedBy from "@/components/trustedBy";
 import Head from "next/head";
 import Herobanner from "../components/banner";
 import Navbar from "../components/navbar";
+import TrustedBy from "@/components/trustedBy";
 export default function Home() {
   return (
     <>
@@ -17,7 +17,7 @@ export default function Home() {
         </nav>
         <main>
           <Herobanner />
-          <TrustedBy />
+          {/* <TrustedBy /> */}
         </main>
       </div>
     </>
