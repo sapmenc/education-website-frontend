@@ -2,9 +2,9 @@ import Image from "next/image";
 
 function TrustedBy() {
   return (
-    <div className="flex flex-col items-center py-20 gap-12 px-5">
+    <div className="flex flex-col items-center py-20 gap-12 px-5 md:px-20">
       <div className=" text-center ">
-        <span className="text-[#ff7e84] text-2xl underlined-red ">
+        <span className="text-[#ff7e84] text-2xl underlined-red relative">
           Trusted{" "}
         </span>
         <span className=" text-[#0c1327]  text-2xl">
