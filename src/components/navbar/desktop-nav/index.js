@@ -6,7 +6,7 @@ import Link from "next/link";
 function DesktopNav() {
   const [show, setShow] = useState(false);
   const navbarChangeListener = () => {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 0) {
       setShow(true);
     } else {
       setShow(false);
@@ -24,12 +24,14 @@ function DesktopNav() {
       <div className="w-full flex items-center max-w-[1143px] justify-between">
         {/* desktop-nav-logo-container */}
         <div>
-          <Image
-            className="drop-shadow-xl"
-            src="/assets/images/logo/ankit-rathore-logo.png"
-            width={85}
-            height={85}
-          ></Image>
+          <Link href="/">
+            <Image
+              className="drop-shadow-xl"
+              src="/assets/images/logo/ankit-rathore-logo.png"
+              width={85}
+              height={85}
+            ></Image>
+          </Link>
         </div>
 
         {/* desktop-nav-links */}

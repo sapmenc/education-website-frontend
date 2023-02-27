@@ -3,7 +3,7 @@ import MobileNav from "./mobile-nav";
 
 function Navbar() {
   return (
-    <div className="bg-red-100">
+    <div className="bg-red-100 z-50">
       {/* mobile navbar */}
       <MobileNav />
       {/* desktop navbar */}
