@@ -4,7 +4,7 @@ function TrustedBy() {
   return (
     <div className="flex flex-col items-center py-20 gap-12 px-5 md:px-20">
       <div className=" text-center ">
-        <span className="text-[#ff7e84] text-2xl underlined-red relative">
+        <span className="text-[#ff7e84] text-2xl underlined-red relative z-[-1]">
           Trusted{" "}
         </span>
         <span className=" text-[#0c1327]  text-2xl">
@@ -12,7 +12,7 @@ function TrustedBy() {
         </span>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-10  md:gap-20 max-w-[1700px] ">
+      <div className="flex flex-wrap justify-center gap-10  md:gap-20 max-w-[1700px] z-[-1]">
         <Image
           className="hover:cursor-pointer ease-out duration-500 grayscale hover:grayscale-0 object-contain   "
           src="/assets/images/all-img/brands/1.svg"

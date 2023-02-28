@@ -1,19 +1,14 @@
 import React from "react";
+import Cards from "./cards";
+import Whychose from "./Whychose";
 
-function Whychose() {
+function WhyChoose() {
   return (
     <div>
-      <div className=" text-center ">
-        <span className="text-[#39c1b1] text-2xl underlined-red ">
-          Curious Features{" "}
-        </span>
-        <br />
-        <span className=" text-[#0c1327]  text-2xl">Why </span>
-        <span className="text-[#ff7e84] text-2xl underlined-red ">Chose </span>
-        <span className=" text-[#0c1327]  text-2xl">Us</span>
-      </div>
+      <Whychose />
+      <Cards />
     </div>
   );
 }
 
-export default Whychose;
+export default WhyChoose;
