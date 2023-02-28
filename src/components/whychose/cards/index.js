@@ -1,36 +1,33 @@
-import React from "react";
 import Card from "./Card";
+import React from "react";
 
 const posts = [
   {
-    title: "React Tailwind Card with Grid 1",
-    img: "/assets/images/icon/web.svg",
-    hoverImg: "/assets/images/all-img/brands/web-white.svg",
+    title: "Joy of Learning",
+    icon: "codicon:globe",
     content:
-      "react tailwind css card with image It is a long established fact that a reader will be distracted by the readable content",
+      "Experience the joy of learning with our engaging and interactive approach that makes education fun and exciting.",
   },
   {
-    title: "React Tailwind Card with Grid 2",
-    img: "/assets/images/icon/web.svg",
-    hoverImg: "/assets/images/all-img/brands/web-white.svg",
+    title: "Think Outside the Box",
+    icon: "healthicons:i-training-class-outline",
     content:
-      "react tailwind css card with image It is a long established fact that a reader will be distracted by the readable content",
+      "Develop a more creative, forward-thinking thought process towards everything around you.",
   },
   {
-    title: "React Tailwind Card with Grid 3",
-    img: "/assets/images/icon/web.svg",
-    hoverImg: "/assets/images/all-img/brands/web-white.svg",
+    title: "Limitless possibilities",
+    icon: "fluent:handshake-32-regular",
     content:
-      "react tailwind css card with image It is a long established fact that a reader will be distracted by the readable content",
+      "Say Goodbye to Limiting Education and Hello to Unlimited Learning!",
   },
 ];
 
 function Cards() {
   return (
-    <div className="grid grid-col-1 md:grid-col-2 lg:grid-col-3">
+    <div className="flex flex-wrap justify-center gap-20">
       {posts.map((post) => {
         return (
-          <Card img={post?.img} title={post?.title} content={post?.content} />
+          <Card icon={post?.icon} title={post?.title} content={post?.content} />
         );
       })}
     </div>

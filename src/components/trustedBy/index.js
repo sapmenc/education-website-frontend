@@ -12,9 +12,9 @@ function TrustedBy() {
         </span>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-10  md:gap-20 max-w-[1700px] z-[-1]">
+      <div className="flex flex-wrap justify-center gap-10  md:gap-20 max-w-[1700px]">
         <Image
-          className="hover:cursor-pointer ease-out duration-500 grayscale hover:grayscale-0 object-contain   "
+          className="hover:cursor-pointer ease-out duration-500 grayscale hover:grayscale-0 object-contain z-10"
           src="/assets/images/all-img/brands/1.svg"
           alt="i am here"
           width={150}
