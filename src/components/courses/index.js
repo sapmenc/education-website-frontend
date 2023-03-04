@@ -1,6 +1,6 @@
-import React from "react";
-import CardIndex from "./Card";
+import CardIndex from "./CardIndex";
 import CourseInfo from "./CourseInfo";
+import React from "react";
 function Courses() {
   return (
     <div>
