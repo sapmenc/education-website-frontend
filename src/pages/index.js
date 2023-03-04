@@ -5,6 +5,7 @@ import TrustedBy from "../components/trustedBy";
 import Whychoose from "@/components/whychose";
 import Courses from "@/components/courses";
 import BestOnline from "@/components/bestonline";
+import Newsletter from "@/components/newsletter";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
           <Whychoose />
           <Courses />
           <BestOnline />
+          <Newsletter />
         </main>
       </div>
     </>

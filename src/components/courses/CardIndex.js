@@ -12,6 +12,8 @@ const posts = [
   {
     title: "Think Outside the Box",
     icon: "healthicons:i-training-class-outline",
+    image:
+      "https://bestwpware.com/react-templates/edumim/static/media/c1.9a96774cfca367007a65.png",
     content:
       "Develop a more creative, forward-thinking thought process towards everything around you.",
     price: " $29.8",
