@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 const Card = ({ title, image, content, price, tag }) => {
   return (
-    <div className="px-5">
-      <div className="group w-[400px] p-4 md:cursor-pointer flex flex-col justify-start gap-[37px] rounded-lg shadow-lg  hover:ease-out duration-300">
+    <div className="px-5 ">
+      <div className="group w-[400px] p-4 md:cursor-pointer flex flex-col justify-start gap-[37px] rounded-lg shadow-lg  hover:ease-out duration-300 ">
         {/* image */}
         <div className="relative block:w-full object-contain rounded-lg overflow-hidden flex justify-center items-center text-[50] h-full w-full">
           <Image
