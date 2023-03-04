@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 
 const Card = ({ title, image, content, price, tag }) => {
-  console.log({ title, image, content, price, tag });
   return (
     <div className="px-5">
       <div className="group w-[400px] p-4 md:cursor-pointer flex flex-col justify-start gap-[37px] rounded-lg shadow-lg  hover:ease-out duration-300">

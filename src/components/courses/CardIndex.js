@@ -28,7 +28,6 @@ const posts = [
 ];
 
 function CardIndex() {
-  console.log("posts", posts);
   return (
     <div className="flex flex-wrap justify-center gap-20">
       {posts.map((post) => {

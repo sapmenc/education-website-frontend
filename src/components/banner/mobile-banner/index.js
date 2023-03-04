@@ -24,7 +24,7 @@ function MobileBanner() {
           </div>
 
           {/* Email Input */}
-          <div className="mt-5 flex flex-col md:flex-row bg-white items-center p-3 rounded-xl gap-5">
+          <div className="mt-5 flex flex-col md:flex-row bg-white items-center p-3 rounded-xl gap-5 drop-shadow-lg">
             <div className="w-full flex items-center gap-3 px-2">
               <div className="h-7 w-7 text-[#7d7d8b]">
                 <EnvelopeIcon />
