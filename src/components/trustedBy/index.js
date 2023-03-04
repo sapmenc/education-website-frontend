@@ -14,35 +14,35 @@ function TrustedBy() {
 
       <div className="flex flex-wrap justify-center gap-10  md:gap-20 max-w-[1700px]">
         <Image
-          className="hover:cursor-pointer ease-out duration-500 grayscale hover:grayscale-0 object-contain z-10"
+          className="hover:cursor-pointer ease-out duration-500 lg:grayscale hover:grayscale-0 object-contain z-10"
           src="/assets/images/all-img/brands/1.svg"
           alt="i am here"
           width={150}
           height={75}
         ></Image>
         <Image
-          className="hover:cursor-pointer ease-out duration-500 grayscale hover:grayscale-0 "
+          className="hover:cursor-pointer ease-out duration-500 lg:grayscale hover:grayscale-0 "
           src="/assets/images/all-img/brands/2.svg"
           alt="i am here"
           width={150}
           height={75}
         ></Image>
         <Image
-          className="hover:cursor-pointer ease-out duration-500 grayscale hover:grayscale-0 "
+          className="hover:cursor-pointer ease-out duration-500 lg:grayscale hover:grayscale-0 "
           src="/assets/images/all-img/brands/3.svg"
           alt="i am here"
           width={150}
           height={75}
         ></Image>
         <Image
-          className="hover:cursor-pointer ease-out duration-500 grayscale hover:grayscale-0 "
+          className="hover:cursor-pointer ease-out duration-500 lg:grayscale hover:grayscale-0 "
           src="/assets/images/all-img/brands/4.svg"
           alt="i am here"
           width={150}
           height={75}
         ></Image>
         <Image
-          className="hover:cursor-pointer ease-out duration-500 grayscale hover:grayscale-0 "
+          className="hover:cursor-pointer ease-out duration-500 lg:grayscale hover:grayscale-0 "
           src="/assets/images/all-img/brands/5.svg"
           alt="i am here"
           width={150}
