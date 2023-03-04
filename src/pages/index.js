@@ -4,6 +4,8 @@ import Navbar from "../components/navbar";
 import TrustedBy from "../components/trustedBy";
 import Whychoose from "@/components/whychose";
 import Courses from "@/components/courses";
+import BestOnline from "@/components/bestonline";
+
 export default function Home() {
   return (
     <>
@@ -23,6 +25,7 @@ export default function Home() {
           <TrustedBy />
           <Whychoose />
           <Courses />
+          <BestOnline />
         </main>
       </div>
     </>
