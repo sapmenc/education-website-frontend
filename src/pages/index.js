@@ -7,6 +7,7 @@ import Courses from "@/components/courses";
 import BestOnline from "@/components/bestonline";
 import Newsletter from "@/components/newsletter";
 import Numbers from "@/components/numbers";
+import Blogs from "@/components/blog";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
           <BestOnline />
           <Newsletter />
           <Numbers />
+          <Blogs />
         </main>
       </div>
     </>
