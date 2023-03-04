@@ -6,6 +6,7 @@ import Whychoose from "@/components/whychose";
 import Courses from "@/components/courses";
 import BestOnline from "@/components/bestonline";
 import Newsletter from "@/components/newsletter";
+import Numbers from "@/components/numbers";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
           <Courses />
           <BestOnline />
           <Newsletter />
+          <Numbers />
         </main>
       </div>
     </>
