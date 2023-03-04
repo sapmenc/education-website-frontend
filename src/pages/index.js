@@ -3,6 +3,7 @@ import Herobanner from "../components/banner";
 import Navbar from "../components/navbar";
 import TrustedBy from "../components/trustedBy";
 import Whychoose from "@/components/whychose";
+import Courses from "@/components/courses";
 export default function Home() {
   return (
     <>
@@ -21,6 +22,7 @@ export default function Home() {
           <Herobanner />
           <TrustedBy />
           <Whychoose />
+          <Courses />
         </main>
       </div>
     </>
