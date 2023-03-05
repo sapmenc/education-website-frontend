@@ -8,6 +8,7 @@ import BestOnline from "@/components/bestonline";
 import Newsletter from "@/components/newsletter";
 import Numbers from "@/components/numbers";
 import Blogs from "@/components/blog";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
           <Newsletter />
           <Numbers />
           <Blogs />
+          <Footer />
         </main>
       </div>
     </>
