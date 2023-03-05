@@ -1,14 +1,14 @@
+import BestOnline from "@/components/bestonline";
+import Blogs from "@/components/blog";
+import Courses from "@/components/courses";
+import Footer from "@/components/footer";
 import Head from "next/head";
 import Herobanner from "../components/banner";
 import Navbar from "../components/navbar";
-import TrustedBy from "../components/trustedBy";
-import Whychoose from "@/components/whychose";
-import Courses from "@/components/courses";
-import BestOnline from "@/components/bestonline";
 import Newsletter from "@/components/newsletter";
 import Numbers from "@/components/numbers";
-import Blogs from "@/components/blog";
-import Footer from "@/components/footer";
+import TrustedBy from "../components/trustedBy";
+import Whychoose from "@/components/whychose";
 
 export default function Home() {
   return (
@@ -28,11 +28,11 @@ export default function Home() {
           <Herobanner />
           <TrustedBy />
           <Whychoose />
-          <Courses />
+          {/* <Courses /> */}
           <BestOnline />
           <Newsletter />
           <Numbers />
-          <Blogs />
+          {/* <Blogs /> */}
           <Footer />
         </main>
       </div>
