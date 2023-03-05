@@ -19,7 +19,7 @@ function DesktopNav() {
     <div
       className={`hidden px-5 py-4 w-full lg:flex justify-center ${
         show ? "bg-white" : "bg-transparent"
-      } fixed top-0 ease-in-out duration-300 drop-shadow z-50`}
+      } fixed top-0 ease-in-out duration-300 drop-shadow z-40`}
     >
       <div className="w-full flex items-center max-w-[1153px] 2xl:max-w-[1400px] justify-between">
         {/* desktop-nav-logo-container */}
