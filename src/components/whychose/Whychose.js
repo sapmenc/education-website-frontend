@@ -11,7 +11,7 @@ function Whychose() {
       <div>
         <h1 className="text-[30px] md:text-[40px] font-bold">
           Why{" "}
-          <span className="text-[#ff7e84] underlined-red relative z-[-1]">
+          <span className="text-[#ff7e84] underlined-red relative z-[10]">
             Choose
           </span>{" "}
           Us

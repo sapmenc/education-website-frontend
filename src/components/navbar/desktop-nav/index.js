@@ -19,7 +19,7 @@ function DesktopNav() {
     <div
       className={`hidden px-5 py-4 w-full lg:flex justify-center ${
         show ? "bg-white" : "bg-transparent"
-      } fixed top-0 ease-in-out  drop-shadow z-50`}
+      } fixed top-0 ease-in-out duration-300 drop-shadow z-50`}
     >
       <div className="w-full flex items-center max-w-[1153px] 2xl:max-w-[1400px] justify-between">
         {/* desktop-nav-logo-container */}
@@ -35,7 +35,7 @@ function DesktopNav() {
         </div>
 
         {/* desktop-nav-links */}
-        <div className="flex justify-start items-center text-[#7b7b8a] gap-14 text-[16px] tracking-widest font-[400]">
+        <div className="flex justify-start w-[40%] items-center text-[#7b7b8a] gap-14 text-[17px] xl:text-[19px] tracking-widest font-[400]">
           <Link className="hover:drop-shadow-xl hover:text-[#686875]" href="#">
             Home
           </Link>

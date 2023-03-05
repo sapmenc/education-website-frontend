@@ -20,7 +20,7 @@ function MobileNav() {
     <div
       className={`lg:hidden px-5 sm:px-14 md:px-6 py-4 w-full flex justify-center ${
         show ? "bg-white" : "bg-transparent"
-      } fixed top-0 ease-in-out duration-200 drop-shadow z-50`}
+      } fixed top-0 ease-in-out duration-500 drop-shadow z-50`}
     >
       <div className="flex items-center w-[570px] md:w-[750px] max-w-[750px] justify-between">
         {/* mobile-nav-logo-container */}

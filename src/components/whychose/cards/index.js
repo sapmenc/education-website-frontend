@@ -24,7 +24,7 @@ const posts = [
 
 function Cards() {
   return (
-    <div className="flex flex-wrap justify-center gap-20">
+    <div className="flex flex-wrap justify-center gap-14">
       {posts.map((post) => {
         return (
           <Card icon={post?.icon} title={post?.title} content={post?.content} />
