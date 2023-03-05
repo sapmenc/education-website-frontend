@@ -33,7 +33,7 @@ export default function Home() {
           <Newsletter />
           <Numbers />
           {/* <Blogs /> */}
-          <Footer />
+          {/* <Footer /> */}
         </main>
       </div>
     </>

@@ -4,6 +4,9 @@
 body{
     overscroll-behavior-y: none;
 }
+*::-webkit-scrollbar {
+  display: none;
+}
 .hightlight-off{
 -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
 }
