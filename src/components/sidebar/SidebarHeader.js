@@ -16,7 +16,7 @@ function SidebarHeader({ setIsMobileMenuOpen }) {
         ></Image>
       </Link>
       <div
-        className="bg-white rounded-full p-2 md:cursor-pointer drop-shadow md:hover:drop-shadow-md z-50"
+        className="bg-white rounded-full p-2 md:cursor-pointer drop-shadow duration-100 md:hover:drop-shadow-md z-50"
         onClick={() => {
           setIsMobileMenuOpen(false);
         }}
