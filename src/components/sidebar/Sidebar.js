@@ -14,7 +14,7 @@ function Sidebar({ isMobileMenuOpen, setIsMobileMenuOpen }) {
     <div
       className={`fixed ${
         isMobileMenuOpen ? "scale-x-100" : "scale-x-0"
-      } lg:hidden w-screen h-screen top-0 bottom-0 left-0 right-0 z-50 flex`}
+      } lg:hidden w-screen h-screen top-0 bottom-0 left-0 right-0 z-50 flex  hightlight-off`}
     >
       <div
         id="sidebar-not-main"
@@ -25,7 +25,7 @@ function Sidebar({ isMobileMenuOpen, setIsMobileMenuOpen }) {
           isMobileMenuOpen ? "scale-x-100" : "scale-x-0"
         } duration-300 origin-left`}
       >
-        <SidebarHeader />
+        <SidebarHeader setIsMobileMenuOpen={setIsMobileMenuOpen} />
         <SidebarContent />
       </div>
     </div>

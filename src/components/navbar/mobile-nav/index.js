@@ -45,7 +45,7 @@ function MobileNav() {
 
           {/* mobile-nav-menu-btn-container */}
           <div
-            className="bg-[#f8f8f8] rounded p-2 md:cursor-pointer hover:drop-shadow-md z-50"
+            className="bg-[#f8f8f8] rounded p-2 md:cursor-pointer md:hover:drop-shadow-md z-50"
             onClick={() => {
               setIsMobileMenuOpen(!isMobileMenuOpen);
             }}

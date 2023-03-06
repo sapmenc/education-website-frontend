@@ -6,7 +6,7 @@ import Link from "next/link.js";
 function SidebarItem({ optionName, optionLink = "", moreItems = [] }) {
   const [areMoreOpen, setAreMoreOpen] = useState(false);
   return (
-    <div className="w-full px-4 border-gray-400 border-b-[0.5px] flex flex-col text-[#7c7c8b] hightlight-off">
+    <div className="w-full px-4 border-gray-400 border-b-[0.5px] flex flex-col text-[#7c7c8b]">
       <div className="flex items-center h-[45px] justify-between tracking-wide">
         <Link
           href={optionLink}
