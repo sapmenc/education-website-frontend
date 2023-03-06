@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "440px",
+      },
       backgroundImage: {
         "banner-pattern": "url('/assets/images/banner/1.png')",
       },
