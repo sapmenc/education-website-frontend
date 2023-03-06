@@ -1,6 +1,7 @@
-import { EnvelopeIcon } from "/node_modules/@heroicons/react/24/outline/index.js";
 import Image from "next/image";
+import { banner_mail_input_icon } from "../../../assets/images.js";
 import { hero_banner_student_image } from "@/assets/Images";
+
 function DesktopBanner() {
   return (
     <div className="hidden xl:flex relative xl:h-[855px] xl:max-h-[855px] overflow-hidden justify-center">
@@ -38,12 +39,18 @@ function DesktopBanner() {
             {/* Email Input */}
             <div className="mt-5 flex flex-col md:flex-row bg-white items-center p-3 rounded-xl gap-5 drop-shadow-lg">
               <div className="w-full flex items-center gap-3 px-2">
-                <div className="h-7 w-7 text-[#7d7d8b]">
-                  <EnvelopeIcon />
+                <div className="h-6 w-6 text-[#7d7d8b]">
+                  <Image
+                    className="w-full h-full"
+                    src={banner_mail_input_icon}
+                    alt=""
+                    height={1000}
+                    width={1000}
+                  />
                 </div>
                 <input
                   email="text"
-                  className="p-2 w-full outline-none border-none placeholder-shown:border-red-500 placeholder-shown:tracking-wide placeholder-shown:font-light placeholder-shown:text-[#7d7d8b]"
+                  className="p-2 w-full outline-none border-none placeholder-shown:tracking-wide placeholder-shown:font-light placeholder-shown:text-[#7d7d8b]"
                   placeholder="Enter your mail"
                 />
               </div>

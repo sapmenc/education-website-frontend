@@ -2,6 +2,7 @@ export const ankit_rathor_logo = "/assets/images/logo/ankit-rathore-logo.png";
 export const hero_banner_student_image =
   "https://pngimg.com/d/student_PNG62520.png";
 export const newsletter_mail_icon = "/assets/images/svg/big-mail.svg";
+export const banner_mail_input_icon = "/assets/images/icon/mail.svg";
 export const newsletter_mail_input_icon = "/assets/images/svg/mail-white.svg";
 export const social_medias = [
   {
