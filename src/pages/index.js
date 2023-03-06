@@ -1,3 +1,4 @@
+import About from "@/components/about";
 import BestOnline from "@/components/bestonline";
 import Blogs from "@/components/blog";
 import Courses from "@/components/courses";
@@ -26,6 +27,7 @@ export default function Home() {
         </nav>
         <main>
           <Herobanner />
+          <About />
           <TrustedBy />
           <Whychoose />
           {/* <Courses /> */}

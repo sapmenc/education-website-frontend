@@ -22,3 +22,6 @@ export const social_medias = [
     link: "#",
   },
 ];
+
+export const light_bulb_icon = "/assets/images/svg/light.svg";
+export const target_icon = "/assets/images/svg/target.svg";
